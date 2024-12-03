@@ -11,7 +11,7 @@ import SwiftUI
 struct Phone_GuardianApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
