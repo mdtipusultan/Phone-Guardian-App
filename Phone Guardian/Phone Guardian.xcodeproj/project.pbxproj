@@ -10,9 +10,22 @@
 		CE8FA53C2CFECBA8004E8E05 /* Phone Guardian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Guardian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CE895A662D03042F003AA1D7 /* Exceptions for "Phone Guardian" folder in "Phone Guardian" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Phone-Guardian-Info.plist",
+			);
+			target = CE8FA53B2CFECBA8004E8E05 /* Phone Guardian */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CE8FA53E2CFECBA8004E8E05 /* Phone Guardian */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CE895A662D03042F003AA1D7 /* Exceptions for "Phone Guardian" folder in "Phone Guardian" target */,
+			);
 			path = "Phone Guardian";
 			sourceTree = "<group>";
 		};
@@ -252,6 +265,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Phone-Guardian-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library for managing wallpapers.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -291,6 +306,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Phone-Guardian-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library for managing wallpapers.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
