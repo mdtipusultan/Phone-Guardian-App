@@ -71,7 +71,7 @@
 import SwiftUI
 
 struct BaseView: View {
-    @State private var selectedTab = 2 // Default to center tab (Clap Alarm)
+    @State private var selectedTab = 0
 
     var body: some View {
         VStack(spacing: 0) {
