@@ -266,6 +266,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Phone-Guardian-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = NSDocumentDirectoryUsageDescription;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library for managing wallpapers.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -307,6 +308,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Phone-Guardian-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = NSDocumentDirectoryUsageDescription;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library for managing wallpapers.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
