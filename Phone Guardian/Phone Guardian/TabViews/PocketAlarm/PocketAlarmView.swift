@@ -49,12 +49,12 @@ struct PocketAlarmView: View {
             }
 
             Spacer()
-
-            Text("Ensure your phone is in your pocket for this feature to work.")
-                .font(.footnote)
-                .foregroundColor(.gray)
-                .multilineTextAlignment(.center)
-                .padding()
+//
+//            Text("Ensure your phone is in your pocket for this feature to work.")
+//                .font(.footnote)
+//                .foregroundColor(.gray)
+//                .multilineTextAlignment(.center)
+//                .padding()
         }
         .onAppear(perform: setupMotionDetection)
         .onDisappear(perform: stopMotionDetection)
